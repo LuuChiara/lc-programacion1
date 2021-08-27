@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caida libre</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-danger">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Caida Libre</a>
+        </div>
+    </nav>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-4">
+                <div class="mb-3">
+                    <label class="form-label">Vi</label>
+                    <input id="inp-vi" class="form-control" type="number" placeholder="Ingrese velocidad inicial">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Vf</label>
+                    <input id="inp-vf" class="form-control" type="number" placeholder="Ingrese velocidad final">
+                </div>
+                <button id="btn-calcular" class="btn btn-danger">Calcular</button>
+            </div>
+            <div class="col-8">
+                <h3 id="h-tiempo"></h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
