@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de superficie</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-danger">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Area</a>
+        </div>
+    </nav>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-6">
+                <h3>Area de trapecio</h3>
+                <div class="mb-3">
+                    <label class="form-label">Base superior</label>
+                    <input id="inp-bs" class="form-control" type="number" placeholder="Ingrese base superior">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Base inferior</label>
+                    <input id="inp-bi" class="form-control" type="number" placeholder="Ingrese base inferior">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Altura</label>
+                    <input id="inp-a" class="form-control" type="number" placeholder="Ingrese altura">
+                </div>
+                <button id="btn-calcular" class="btn btn-danger">Calcular</button>
+                <h3 id="r1"></h3>
+            </div>
+            <div class="col-6">
+                <h3>Area de triangulo</h3>
+                <div class="mb-3">
+                    <label class="form-label">Base</label>
+                    <input id="inp-base" class="form-control" type="number" placeholder="Ingrese base inferior">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Altura</label>
+                    <input id="inp-altura" class="form-control" type="number" placeholder="Ingrese altura">
+                </div>
+                <button id="btn-calcular1" class="btn btn-danger">Calcular</button>
+                <h3 id="r2"></h3>
+            </div>
+        </div>
+    </div>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
