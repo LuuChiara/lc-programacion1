@@ -14,12 +14,12 @@ export default class Area{
     }
 
     calcular_area_trap () {
-        const resultado= (this.base_sup + this.base_inf/2)*this.altu;
+        const resultado= (parseInt(this.base_sup) + parseInt(this.base_inf)/2)*parseInt(this.altu);
         return resultado
     }
 
     calcular_area_triangulo (){
-        const resultado1= this.base* this.altura/2
+        const resultado1= parseInt(this.base)* parseInt(this.altura)/2
         return resultado1
     }
 }
